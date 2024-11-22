@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-11-10 17:35+0000\n"
-"PO-Revision-Date: 2024-11-17 14:18\n"
+"PO-Revision-Date: 2024-11-22 17:01\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -4588,7 +4588,7 @@ msgstr "Om vald döljs anpassade doctypes och rapport kort i Länk sektion"
 
 #: frappe/website/doctype/web_page/web_page.js:78
 msgid "Checking this will publish the page on your website and it'll be visible to everyone."
-msgstr "Om vald kommer sida att publiceras på hemsida och vara synlig för alla."
+msgstr "Om vald kommer sida att publiceras på webbplats och vara synlig för alla."
 
 #: frappe/website/doctype/web_page/web_page.js:104
 msgid "Checking this will show a text area where you can write custom javascript that will run on this page."
@@ -5154,7 +5154,7 @@ msgstr "Vanliga förnamn och efternamn är lätta att gissa."
 #: frappe/email/doctype/email_queue/email_queue.json
 #: frappe/tests/test_translate.py:35 frappe/tests/test_translate.py:103
 msgid "Communication"
-msgstr "Kommunikation"
+msgstr "Konversation"
 
 #. Name of a DocType
 #: frappe/core/doctype/communication_link/communication_link.json
@@ -9239,7 +9239,7 @@ msgstr "Fel i Klient Skript."
 
 #: frappe/printing/doctype/letter_head/letter_head.js:21
 msgid "Error in Header/Footer Script"
-msgstr "Fel i Sidhuvud/Sidfot Skript"
+msgstr "Fel i Brevhuvud/Sidfot Skript"
 
 #: frappe/email/doctype/notification/notification.py:396
 #: frappe/email/doctype/notification/notification.py:512
@@ -10990,7 +10990,7 @@ msgstr "Hämta Fält"
 
 #: frappe/printing/doctype/letter_head/letter_head.js:32
 msgid "Get Header and Footer wkhtmltopdf variables"
-msgstr "Hämta Brevhuvud och Sidfot wkhtmltopdf variabler"
+msgstr "Hämta wkhtmltopdf variabler för sidhuvud och sidfot"
 
 #: frappe/public/js/frappe/form/multi_select_dialog.js:87
 msgid "Get Items"
@@ -11847,7 +11847,7 @@ msgstr "Tips: Inkludera symboler, siffror och stora bokstäver i lösenord"
 #: frappe/www/contact.py:22 frappe/www/error.html:30 frappe/www/login.html:150
 #: frappe/www/message.html:34
 msgid "Home"
-msgstr "Start"
+msgstr "Hem"
 
 #. Label of a Data field in DocType 'Role'
 #. Label of a Data field in DocType 'Website Settings'
@@ -11869,7 +11869,7 @@ msgstr "Hem/Test Mapp 1"
 
 #: frappe/core/doctype/file/test_file.py:358
 msgid "Home/Test Folder 1/Test Folder 3"
-msgstr "Start/Testa Mapp 1 / Test Mapp 3"
+msgstr "Hem/Test Mapp 1 / Test Mapp 3"
 
 #: frappe/core/doctype/file/test_file.py:314
 msgid "Home/Test Folder 2"
@@ -12296,7 +12296,7 @@ msgstr "Bild Länk"
 
 #: frappe/public/js/frappe/list/base_list.js:208
 msgid "Image View"
-msgstr "Visa Bild"
+msgstr "Bild Vy"
 
 #. Label of a Float field in DocType 'Letter Head'
 #: frappe/printing/doctype/letter_head/letter_head.json
@@ -16900,7 +16900,7 @@ msgstr "Ej Tillåtet via kontroll behörighet koll"
 
 #: frappe/public/js/frappe/request.js:145 frappe/website/js/website.js:94
 msgid "Not found"
-msgstr "Ej Hittad"
+msgstr "Hittade inte"
 
 #: frappe/core/doctype/page/page.py:62
 msgid "Not in Developer Mode"
@@ -16977,7 +16977,7 @@ msgstr "Obs: Detta kommer att delas med användare."
 
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.js:8
 msgid "Note: Your request for account deletion will be fulfilled within {0} hours."
-msgstr "Obs: Begäran om borttagning av konto kommer att uppfyllas inom {0} timmar."
+msgstr "Obs: Begäran om borttagning av konto kommer att behandlas inom {0} timmar."
 
 #: frappe/core/doctype/data_export/exporter.py:183
 msgid "Notes:"
@@ -28608,7 +28608,7 @@ msgstr "Kommer att användas i URL (vanligtvis förnamn)."
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:463
 msgid "Will be your login ID"
-msgstr "Inloggning ID"
+msgstr "Kommer att vara ditt inloggning ID"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:424
 msgid "Will only be shown if section headings are enabled"
@@ -29427,7 +29427,7 @@ msgstr "Ditt konto är borttagen"
 
 #: frappe/auth.py:494
 msgid "Your account has been locked and will resume after {0} seconds"
-msgstr "Ditt konto är låst och kommer att låsas upp efter {0} sekunder"
+msgstr "Konto är låst och kommer att låsas upp efter {0} sekunder"
 
 #: frappe/desk/form/assign_to.py:278
 msgid "Your assignment on {0} {1} has been removed by {2}"
@@ -29473,7 +29473,7 @@ msgstr "Bolag Namn och Adress för E-post Signatur."
 
 #: frappe/templates/emails/auto_reply.html:2
 msgid "Your query has been received. We will reply back shortly. If you have any additional information, please reply to this mail."
-msgstr "Din fråga har tagits emot. Vi kommer att svara inom kort. Om du har ytterligare information, vänligen svara på detta mail."
+msgstr "Din fråga har mottagits. Vi kommer att svara inom kort. Om du har någon ytterligare information, vänligen svara på detta mail."
 
 #: frappe/app.py:349
 msgid "Your session has expired, please login again to continue."
@@ -30076,7 +30076,7 @@ msgstr "hjärta"
 #. Option for the 'Icon' (Select) field in DocType 'Workflow State'
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
 msgid "home"
-msgstr "start"
+msgstr "hem"
 
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:296
 msgid "hub"
