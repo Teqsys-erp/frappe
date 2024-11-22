@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-11-17 09:34+0000\n"
-"PO-Revision-Date: 2024-11-19 16:30\n"
+"PO-Revision-Date: 2024-11-22 17:01\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -4647,7 +4647,7 @@ msgstr "Om vald döljs anpassade doctypes och rapport kort i Länk sektion"
 
 #: frappe/website/doctype/web_page/web_page.js:78
 msgid "Checking this will publish the page on your website and it'll be visible to everyone."
-msgstr "Om vald kommer sida att publiceras på hemsida och vara synlig för alla."
+msgstr "Om vald kommer sida att publiceras på webbplats och vara synlig för alla."
 
 #: frappe/website/doctype/web_page/web_page.js:104
 msgid "Checking this will show a text area where you can write custom javascript that will run on this page."
@@ -9418,7 +9418,7 @@ msgstr "Fel i Klient Skript."
 
 #: frappe/printing/doctype/letter_head/letter_head.js:21
 msgid "Error in Header/Footer Script"
-msgstr "Fel i Sidhuvud/Sidfot Skript"
+msgstr "Fel i Brevhuvud/Sidfot Skript"
 
 #: frappe/email/doctype/notification/notification.py:595
 #: frappe/email/doctype/notification/notification.py:728
@@ -9742,13 +9742,13 @@ msgstr "Export ej tillåtet.{0} roll erfodras för att exportera."
 #. 'Data Export'
 #: frappe/core/doctype/data_export/data_export.json
 msgid "Export the data without any header notes and column descriptions"
-msgstr "Exportera data utan några rubriker och kolumn beskrivning"
+msgstr "Exportera data utan några rubrikanteckningar och kolumnbeskrivningar"
 
 #. Label of the export_without_main_header (Check) field in DocType 'Data
 #. Export'
 #: frappe/core/doctype/data_export/data_export.json
 msgid "Export without main header"
-msgstr "Exportera utan huvud rubrik"
+msgstr "Exportera utan huvudrubrik"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:247
 msgid "Export {0} records"
@@ -11269,7 +11269,7 @@ msgstr "Hämta Fält"
 
 #: frappe/printing/doctype/letter_head/letter_head.js:32
 msgid "Get Header and Footer wkhtmltopdf variables"
-msgstr "Hämta Brevhuvud och Sidfot wkhtmltopdf variabler"
+msgstr "Hämta wkhtmltopdf variabler för sidhuvud och sidfot"
 
 #: frappe/public/js/frappe/form/multi_select_dialog.js:87
 msgid "Get Items"
@@ -11745,7 +11745,7 @@ msgstr "HTML Sida"
 #. Description of the 'Header' (HTML Editor) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
 msgid "HTML for header section. Optional"
-msgstr "HTML för Rubrik Sektion. Valfritt"
+msgstr "HTML för rubriksektion. Valfritt"
 
 #: frappe/website/doctype/web_page/web_page.js:92
 msgid "HTML with jinja support"
@@ -11817,7 +11817,7 @@ msgstr "Huvud Rubrik"
 #. Label of the content (HTML Editor) field in DocType 'Letter Head'
 #: frappe/printing/doctype/letter_head/letter_head.json
 msgid "Header HTML"
-msgstr "HTML"
+msgstr "Sidhuvud HTML"
 
 #: frappe/printing/doctype/letter_head/letter_head.py:63
 msgid "Header HTML set from attachment {0}"
@@ -17392,7 +17392,7 @@ msgstr "Obs: Detta kommer att delas med användare."
 
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.js:8
 msgid "Note: Your request for account deletion will be fulfilled within {0} hours."
-msgstr "Obs: Begäran om borttagning av konto kommer att uppfyllas inom {0} timmar."
+msgstr "Obs: Begäran om borttagning av konto kommer att behandlas inom {0} timmar."
 
 #: frappe/core/doctype/data_export/exporter.py:183
 msgid "Notes:"
@@ -21555,7 +21555,7 @@ msgstr "Begäran Beskrivning"
 #: frappe/core/doctype/recorder/recorder.json
 #: frappe/integrations/doctype/integration_request/integration_request.json
 msgid "Request Headers"
-msgstr "Begäran Rubriker"
+msgstr "Rubriker för Begäran"
 
 #. Label of the request_id (Data) field in DocType 'Integration Request'
 #: frappe/integrations/doctype/integration_request/integration_request.json
@@ -27989,7 +27989,7 @@ msgstr "Använd IMAP"
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Use Number Format from Currency"
-msgstr "Använd Nummerformat från Valuta"
+msgstr "Använd Nummer Format från Valuta"
 
 #. Label of the use_post (Check) field in DocType 'SMS Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
@@ -29285,7 +29285,7 @@ msgstr "Vad är Nytt"
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "When enabled this will allow guests to upload files to your application, You can enable this if you wish to collect files from user without having them to log in, for example in job applications web form."
-msgstr "Om aktiverad kan gäst Användare ladda upp filer.Aktivera detta för att gäst Användare kann ladda upp filer utan att de behöver logga in, till exempel i webbformulär för jobb ansökan."
+msgstr "Om aktiverad kan gästanvändare ladda upp filer. Aktivera detta för att gästanvändare kan ladda upp filer utan att de behöver logga in, till exempel i webbformulär för jobbansökan."
 
 #. Description of the 'Store Attached PDF Document' (Check) field in DocType
 #. 'System Settings'
@@ -29347,7 +29347,7 @@ msgstr "Kommer att användas i URL (vanligtvis förnamn)."
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:462
 msgid "Will be your login ID"
-msgstr "Inloggning ID"
+msgstr "Kommer att vara ditt inloggning ID"
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:424
 msgid "Will only be shown if section headings are enabled"
@@ -30187,7 +30187,7 @@ msgstr "Ditt konto är borttagen"
 
 #: frappe/auth.py:507
 msgid "Your account has been locked and will resume after {0} seconds"
-msgstr "Ditt konto är låst och kommer att låsas upp efter {0} sekunder"
+msgstr "Konto är låst och kommer att låsas upp efter {0} sekunder"
 
 #: frappe/desk/form/assign_to.py:278
 msgid "Your assignment on {0} {1} has been removed by {2}"
@@ -30233,7 +30233,7 @@ msgstr "Bolag Namn och Adress för E-post Signatur."
 
 #: frappe/templates/emails/auto_reply.html:2
 msgid "Your query has been received. We will reply back shortly. If you have any additional information, please reply to this mail."
-msgstr "Din fråga har tagits emot. Vi kommer att svara inom kort. Om du har ytterligare information, vänligen svara på detta mail."
+msgstr "Din fråga har mottagits. Vi kommer att svara inom kort. Om du har någon ytterligare information, vänligen svara på detta mail."
 
 #: frappe/app.py:367
 msgid "Your session has expired, please login again to continue."
