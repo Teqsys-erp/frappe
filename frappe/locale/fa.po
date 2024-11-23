@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-11-17 09:34+0000\n"
-"PO-Revision-Date: 2024-11-21 16:49\n"
+"PO-Revision-Date: 2024-11-23 17:11\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -2029,7 +2029,7 @@ msgstr "ماتریس ناشناس سازی"
 #. Label of the anonymous (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Anonymous responses"
-msgstr ""
+msgstr "پاسخ های ناشناس"
 
 #: frappe/public/js/frappe/request.js:187
 msgid "Another transaction is blocking this one. Please try again in a few seconds."
@@ -2490,7 +2490,7 @@ msgstr "کاربر قانون تخصیص"
 
 #: frappe/automation/doctype/assignment_rule/assignment_rule.py:55
 msgid "Assignment Rule is not allowed on document type {0}"
-msgstr ""
+msgstr "قانون تخصیص در نوع سند {0} مجاز نیست"
 
 #. Label of the assignment_rules_section (Section Break) field in DocType
 #. 'Assignment Rule'
@@ -4715,7 +4715,7 @@ msgstr "URL های مشتری"
 #. Label of the client_script (Code) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Client script"
-msgstr ""
+msgstr "اسکریپت کلاینت"
 
 #: frappe/core/doctype/communication/communication.js:39
 #: frappe/desk/doctype/todo/todo.js:23
@@ -5170,7 +5170,7 @@ msgstr "شرایط JSON"
 #. Label of the condition_description (HTML) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Condition description"
-msgstr ""
+msgstr "توضیحات شرط"
 
 #. Label of the conditions (Table) field in DocType 'Document Naming Rule'
 #. Label of the conditions (Section Break) field in DocType 'Workflow
@@ -6700,7 +6700,7 @@ msgstr "محیط کار پیش فرض"
 #. Description of the 'Currency' (Link) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Default display currency"
-msgstr ""
+msgstr "ارز نمایش پیش فرض"
 
 #: frappe/core/doctype/doctype/doctype.py:1379
 msgid "Default for 'Check' type of field {0} must be either '0' or '1'"
@@ -8686,7 +8686,7 @@ msgstr "ایمیل به سطل زباله منتقل شد"
 
 #: frappe/core/doctype/user/user.js:272
 msgid "Email is mandatory to create User Email"
-msgstr ""
+msgstr "ایمیل برای ایجاد ایمیل کاربر الزامی است"
 
 #: frappe/public/js/frappe/views/communication.js:807
 msgid "Email not sent to {0} (unsubscribed / disabled)"
@@ -9755,7 +9755,7 @@ msgstr "تنظیمات جهانی به روز نشد"
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:83
 msgid "Failed while calling API {0}"
-msgstr ""
+msgstr "هنگام فراخوان API {0} ناموفق بود"
 
 #. Label of the failing_scheduled_jobs (Table) field in DocType 'System Health
 #. Report'
@@ -12177,7 +12177,7 @@ msgstr "اگر فعال باشد، کاربر می‌تواند از هر آدر
 #. Description of the 'Anonymous responses' (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "If enabled, all responses on the web form will be submitted anonymously"
-msgstr ""
+msgstr "اگر فعال باشد، تمام پاسخ‌های موجود در فرم وب به‌صورت ناشناس ارسال می‌شود"
 
 #. Description of the 'Bypass restricted IP Address check If Two Factor Auth
 #. Enabled' (Check) field in DocType 'System Settings'
@@ -29488,7 +29488,7 @@ msgstr "شما در حال جعل هویت به عنوان کاربر دیگری
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:24
 msgid "You are not allowed to access this resource"
-msgstr ""
+msgstr "شما اجازه دسترسی به این منبع را ندارید"
 
 #: frappe/permissions.py:408
 msgid "You are not allowed to access this {0} record because it is linked to {1} '{2}' in field {3}"
