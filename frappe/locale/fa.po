@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-11-10 17:35+0000\n"
-"PO-Revision-Date: 2024-11-21 16:49\n"
+"PO-Revision-Date: 2024-11-23 17:11\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -2007,7 +2007,7 @@ msgstr "ماتریس ناشناس سازی"
 #. Label of a Check field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Anonymous responses"
-msgstr ""
+msgstr "پاسخ های ناشناس"
 
 #: frappe/public/js/frappe/request.js:186
 msgid "Another transaction is blocking this one. Please try again in a few seconds."
@@ -2466,7 +2466,7 @@ msgstr "کاربر قانون تخصیص"
 
 #: frappe/automation/doctype/assignment_rule/assignment_rule.py:55
 msgid "Assignment Rule is not allowed on document type {0}"
-msgstr ""
+msgstr "قانون تخصیص در نوع سند {0} مجاز نیست"
 
 #. Label of a Section Break field in DocType 'Assignment Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
@@ -3211,7 +3211,7 @@ msgstr "اطلاعات پایه"
 #: frappe/public/js/frappe/ui/filters/filter.js:60
 #: frappe/public/js/frappe/ui/filters/filter.js:66
 msgid "Before"
-msgstr ""
+msgstr "قبل از"
 
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
@@ -4666,7 +4666,7 @@ msgstr "URL های مشتری"
 #. Label of a Code field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Client script"
-msgstr ""
+msgstr "اسکریپت کلاینت"
 
 #: frappe/core/doctype/communication/communication.js:39
 #: frappe/desk/doctype/todo/todo.js:23
@@ -5106,7 +5106,7 @@ msgstr "شرایط JSON"
 #. Label of a HTML field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Condition description"
-msgstr ""
+msgstr "توضیحات شرط"
 
 #. Label of a Table field in DocType 'Document Naming Rule'
 #. Label of a Section Break field in DocType 'Workflow Transition'
@@ -5161,7 +5161,7 @@ msgstr "تایید"
 
 #: frappe/integrations/oauth2.py:118
 msgid "Confirm Access"
-msgstr ""
+msgstr "تأیید دسترسی"
 
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:92
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:100
@@ -6637,7 +6637,7 @@ msgstr "محیط کار پیش فرض"
 #. Description of the 'Currency' (Link) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Default display currency"
-msgstr ""
+msgstr "ارز نمایش پیش فرض"
 
 #: frappe/core/doctype/doctype/doctype.py:1338
 msgid "Default for 'Check' type of field {0} must be either '0' or '1'"
@@ -11869,7 +11869,7 @@ msgstr "اگر فعال باشد، کاربر می‌تواند از هر آدر
 #. Description of the 'Anonymous responses' (Check) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "If enabled, all responses on the web form will be submitted anonymously"
-msgstr ""
+msgstr "اگر فعال باشد، تمام پاسخ‌های موجود در فرم وب به‌صورت ناشناس ارسال می‌شود"
 
 #. Description of the 'Bypass restricted IP Address check If Two Factor Auth
 #. Enabled' (Check) field in DocType 'System Settings'
