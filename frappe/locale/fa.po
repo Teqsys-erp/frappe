@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-11-10 17:35+0000\n"
-"PO-Revision-Date: 2024-11-23 17:11\n"
+"PO-Revision-Date: 2024-11-24 17:06\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -4502,7 +4502,7 @@ msgstr "پاک کردن فیلترها"
 #. Label of a Int field in DocType 'Logs To Clear'
 #: frappe/core/doctype/logs_to_clear/logs_to_clear.json
 msgid "Clear Logs After (days)"
-msgstr "پاک کردن لاگ ها پس از (روزها)"
+msgstr "پاک کردن لاگ ها پس از (بر حسب روز)"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:144
 msgid "Clear User Permissions"
@@ -7573,7 +7573,7 @@ msgstr "کلید اشتراک سند"
 #. Label of a Int field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Document Share Key Expiry (in Days)"
-msgstr "انقضای کلید اشتراک‌گذاری سند (در چند روز)"
+msgstr "انقضای کلید اشتراک‌گذاری سند (بر حسب روز)"
 
 #. Name of a report
 #. Label of a Link in the Users Workspace
@@ -21474,7 +21474,7 @@ msgstr "ابتدا قوانین با اولویت بالاتر اعمال می �
 #. Label of a Int field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Run Jobs only Daily if Inactive For (Days)"
-msgstr "اجرای Jobs فقط روزانه در صورت غیرفعال بودن برای (روزها)"
+msgstr "اجرای Jobs فقط روزانه در صورت غیرفعال بودن برای (بر حسب روز)"
 
 #. Description of the 'Enable Scheduled Jobs' (Check) field in DocType 'System
 #. Settings'
