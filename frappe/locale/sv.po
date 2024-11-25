@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-11-10 17:35+0000\n"
-"PO-Revision-Date: 2024-11-22 17:01\n"
+"PO-Revision-Date: 2024-11-25 17:49\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -2468,7 +2468,7 @@ msgstr "Är du säker på att du vill skapa ny rapport?"
 
 #: frappe/public/js/frappe/form/toolbar.js:111
 msgid "Are you sure you want to merge {0} with {1}?"
-msgstr "Är du säker på att du vill sammanfoga {0} med {1}?"
+msgstr "Är du säker på att du vill slå samman {0} med {1}?"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:105
 msgid "Are you sure you want to proceed?"
@@ -8150,7 +8150,7 @@ msgstr "Rullgardin Meny"
 #. Label of a Date field in DocType 'ToDo'
 #: frappe/desk/doctype/todo/todo.json
 msgid "Due Date"
-msgstr "Förfallo Datum"
+msgstr "Förfallodatum"
 
 #. Label of a Select field in DocType 'Assignment Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
@@ -30205,7 +30205,7 @@ msgstr "mapp-markör"
 
 #: frappe/model/rename_doc.py:213
 msgid "merged {0} into {1}"
-msgstr "slog samman {0} in i {1}"
+msgstr "sammanslog {0} in i {1}"
 
 #: frappe/website/doctype/blog_post/templates/blog_post.html:25
 #: frappe/website/doctype/blog_post/templates/blog_post_row.html:36
@@ -31637,7 +31637,7 @@ msgstr "{0} {1} kan inte vara undernod då den har undernoder"
 
 #: frappe/model/rename_doc.py:373
 msgid "{0} {1} does not exist, select a new target to merge"
-msgstr "{0} {1} existerar inte. Välj ny mål att sammanfoga"
+msgstr "{0} {1} finns inte, välj ett nytt mål för att slå samman"
 
 #: frappe/public/js/frappe/form/form.js:928
 msgid "{0} {1} is linked with the following submitted documents: {2}"
