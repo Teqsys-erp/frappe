@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2024-11-10 17:35+0000\n"
-"PO-Revision-Date: 2024-11-25 17:49\n"
+"PO-Revision-Date: 2024-11-26 17:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -963,7 +963,7 @@ msgstr "دامنه های فعال"
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 #: frappe/www/third_party_apps.html:32
 msgid "Active Sessions"
-msgstr "جلسات فعال"
+msgstr "نشست‌های فعال"
 
 #. Group in User's connections
 #: frappe/core/doctype/user/user.json
@@ -1810,7 +1810,7 @@ msgstr "در ارسال اجازه دهید"
 #. Label of a Check field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Allow only one session per user"
-msgstr "فقط یک جلسه برای هر کاربر مجاز است"
+msgstr "فقط یک نشست برای هر کاربر مجاز است"
 
 #. Label of a Check field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -1964,7 +1964,7 @@ msgstr "قوانین نامگذاری اصلاحیه به روز شد."
 
 #: frappe/public/js/frappe/ui/toolbar/toolbar.js:312
 msgid "An error occurred while setting Session Defaults"
-msgstr "هنگام تنظیم Session Defaults خطایی روی داد"
+msgstr "هنگام تنظیم پیش‌فرض‌های نشست خطایی روی داد"
 
 #. Description of the 'FavIcon' (Attach) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -14531,7 +14531,7 @@ msgstr ""
 
 #: frappe/twofactor.py:165
 msgid "Login session expired, refresh page to retry"
-msgstr "جلسه ورود به سیستم منقضی شد، صفحه را برای امتحان مجدد بازخوانی کنید"
+msgstr "نشست ورود به سیستم منقضی شد، صفحه را برای امتحان مجدد بازخوانی کنید"
 
 #: frappe/templates/includes/comments/comments.html:110
 msgid "Login to comment"
@@ -14582,12 +14582,12 @@ msgstr "خروج"
 
 #: frappe/core/doctype/user/user.js:195
 msgid "Logout All Sessions"
-msgstr "خروج از تمام جلسات"
+msgstr "خروج از تمام نشست‌ها"
 
 #. Label of a Check field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Logout All Sessions on Password Reset"
-msgstr "خروج از همه جلسات با بازنشانی رمز عبور"
+msgstr "خروج از همه نشست‌ها با بازنشانی رمز عبور"
 
 #. Label of a Check field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -16188,7 +16188,7 @@ msgstr "خیر"
 
 #: frappe/www/third_party_apps.html:54
 msgid "No Active Sessions"
-msgstr "بدون جلسات فعال"
+msgstr "بدون نشست فعال"
 
 #. Label of a Check field in DocType 'DocField'
 #. Label of a Check field in DocType 'Custom Field'
@@ -16776,7 +16776,7 @@ msgstr "توجه: برای بهترین نتیجه، تصاویر باید از 
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Note: Multiple sessions will be allowed in case of mobile device"
-msgstr "توجه: جلسات متعدد در مورد دستگاه تلفن همراه مجاز خواهد بود"
+msgstr "توجه: نشست‌های متعدد در مورد دستگاه تلفن همراه مجاز خواهد بود"
 
 #: frappe/core/doctype/user/user.js:382
 msgid "Note: This will be shared with user."
@@ -22759,12 +22759,12 @@ msgstr "سرویس"
 #. Name of a DocType
 #: frappe/core/doctype/session_default/session_default.json
 msgid "Session Default"
-msgstr "پیش‌فرض جلسه"
+msgstr "پیش‌فرض نشست"
 
 #. Name of a DocType
 #: frappe/core/doctype/session_default_settings/session_default_settings.json
 msgid "Session Default Settings"
-msgstr "تنظیمات پیش فرض جلسه"
+msgstr "تنظیمات پیش فرض نشست"
 
 #. Label of a standard navbar item
 #. Type: Action
@@ -22772,24 +22772,24 @@ msgstr "تنظیمات پیش فرض جلسه"
 #: frappe/core/doctype/session_default_settings/session_default_settings.json
 #: frappe/hooks.py frappe/public/js/frappe/ui/toolbar/toolbar.js:321
 msgid "Session Defaults"
-msgstr "پیش‌فرض‌های جلسه"
+msgstr "پیش‌فرض‌های نشست"
 
 #: frappe/public/js/frappe/ui/toolbar/toolbar.js:306
 msgid "Session Defaults Saved"
-msgstr "پیش‌فرض‌های جلسه ذخیره شد"
+msgstr "پیش‌فرض‌های نشست ذخیره شد"
 
 #: frappe/app.py:348
 msgid "Session Expired"
-msgstr "جلسه تمام شده"
+msgstr "نشست منقضی شده"
 
 #. Label of a Data field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Session Expiry (idle timeout)"
-msgstr "انقضای جلسه (تایم بیکار)"
+msgstr "انقضای نشست (تایم بیکار)"
 
 #: frappe/core/doctype/system_settings/system_settings.py:115
 msgid "Session Expiry must be in format {0}"
-msgstr "انقضای جلسه باید در قالب {0} باشد"
+msgstr "انقضای نشست باید در قالب {0} باشد"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:599
 msgctxt "Field value is set"
@@ -23499,7 +23499,7 @@ msgstr "عبارت ساده پایتون، مثال: status == 'Open' و نوع 
 #. Label of a Int field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Simultaneous Sessions"
-msgstr "جلسات همزمان"
+msgstr "نشست‌های همزمان"
 
 #: frappe/custom/doctype/customize_form/customize_form.py:122
 msgid "Single DocTypes cannot be customized."
@@ -29249,7 +29249,7 @@ msgstr "پرسمان شما دریافت شد. ما به زودی پاسخ خو�
 
 #: frappe/app.py:349
 msgid "Your session has expired, please login again to continue."
-msgstr "جلسه شما منقضی شده است، لطفا برای ادامه دوباره وارد شوید."
+msgstr "نشست شما منقضی شده است، لطفا برای ادامه دوباره وارد شوید."
 
 #: frappe/public/js/frappe/ui/toolbar/navbar.html:15
 msgid "Your site is undergoing maintenance or being updated."
