@@ -95,7 +95,7 @@ frappe.ui.form.AssignToDialog = class AssignToDialog {
 		let me = this;
 
 		me.dialog = new frappe.ui.Dialog({
-			title: __("Add to ToDo"),
+			title: __("Add To ToDo"),
 			fields: me.get_fields(),
 			primary_action_label: __("Add"),
 			primary_action: function () {
@@ -139,6 +139,25 @@ frappe.ui.form.AssignToDialog = class AssignToDialog {
 
 		me.dialog.set_value("assign_to", assign_to);
 	}
+	user_group_list() {
+                let me = this;
+                let user_group = me.dialog.get_value("assign_to_user_group");
+                me.dialog.set_value("assign_to_me", 0);
+
+                if (user_group) {
+                        let user_group_members = [];
+                        frappe.db
+                                .get_list("User Group Member", {
+                                        parent_doctype: "User Group",
+                                        filters: { parent: user_group },
+                                        fields: ["user"],
+                                })
+                                .then((response) => {
+                                        user_group_members = response.map((group_member) => group_member.user);
+                                        me.dialog.set_value("assign_to", user_group_members);
+                                });
+                }
+        }
 	set_description_from_doc() {
 		let me = this;
 
@@ -158,6 +177,13 @@ frappe.ui.form.AssignToDialog = class AssignToDialog {
 				onchange: () => me.assign_to_me(),
 			},
 			{
+                label: __("Assign To User Group"),
+                fieldtype: "Link",
+                fieldname: "assign_to_user_group",
+                options: "User Group",
+                onchange: () => me.user_group_list(),
+            },
+			{
 				fieldtype: "MultiSelectPills",
 				fieldname: "assign_to",
 				label: __("Assign To"),
@@ -172,40 +198,40 @@ frappe.ui.form.AssignToDialog = class AssignToDialog {
 			{
 				fieldtype: "Section Break",
 			},
-			{
-				label: __("Complete By"),
-				fieldtype: "Date",
-				fieldname: "date",
-			},
-			{
-				fieldtype: "Column Break",
-			},
-			{
-				label: __("Priority"),
-				fieldtype: "Select",
-				fieldname: "priority",
-				options: [
-					{
-						value: "Low",
-						label: __("Low"),
-					},
-					{
-						value: "Medium",
-						label: __("Medium"),
-					},
-					{
-						value: "High",
-						label: __("High"),
-					},
-				],
-				// Pick up priority from the source document, if it exists and is available in ToDo
-				default: ["Low", "Medium", "High"].includes(
-					me.frm && me.frm.doc.priority ? me.frm.doc.priority : "Medium"
-				),
-			},
-			{
-				fieldtype: "Section Break",
-			},
+			// {
+			// 	label: __("Complete By"),
+			// 	fieldtype: "Date",
+			// 	fieldname: "date",
+			// },
+			// {
+			// 	fieldtype: "Column Break",
+			// },
+			// {
+			// 	label: __("Priority"),
+			// 	fieldtype: "Select",
+			// 	fieldname: "priority",
+			// 	options: [
+			// 		{
+			// 			value: "Low",
+			// 			label: __("Low"),
+			// 		},
+			// 		{
+			// 			value: "Medium",
+			// 			label: __("Medium"),
+			// 		},
+			// 		{
+			// 			value: "High",
+			// 			label: __("High"),
+			// 		},
+			// 	],
+			// 	// Pick up priority from the source document, if it exists and is available in ToDo
+			// 	default: ["Low", "Medium", "High"].includes(
+			// 		me.frm && me.frm.doc.priority ? me.frm.doc.priority : "Medium"
+			// 	),
+			// },
+			// {
+			// 	fieldtype: "Section Break",
+			// },
 			{
 				label: __("Comment"),
 				fieldtype: "Small Text",
