@@ -54,11 +54,11 @@
 
 {% macro logo_section(title=null) %}
 <div class="page-card-head">
-	<img class="app-logo" src="{{ logo }}">
+	<img class="app-logo" src="/files/TEQSYS LOGO r1.png">
 	{% if title %}
 	<h4>{{ _(title)}}</h4>
 	{% else %}
-	<h4>{{ _('Login to {0}').format(app_name or _("Frappe")) }}</h4>
+	<h4>{{ _('Login To {0}').format(app_name or _("Frappe")) }}</h4>
 	{% endif %}
 </div>
 {% endmacro %}
@@ -84,7 +84,7 @@
 					</form>
 					<div class="social-logins text-center">
 						{% if not disable_user_pass_login or (ldap_settings and ldap_settings.enabled) %}
-						<p class="text-muted login-divider">{{ _("or") }}</p>
+						<p class="text-muted login-divider">{{ _("") }}</p>
 						{% endif %}
 						<div class="social-login-buttons">
 							{% for provider in provider_logins %}
@@ -98,7 +98,7 @@
 							</div>
 							{% endfor %}
 						</div>
-						{% if login_with_email_link %}
+					<!--{% if login_with_email_link %}
 						<div class="login-with-email-link social-login-buttons">
 							<div class="login-button-wrapper">
 								<a href="#login-with-email-link"
@@ -106,7 +106,7 @@
 									{{ _("Login with Email Link") }}</a>
 							</div>
 						</div>
-						{% endif %}
+						{% endif %} -->
 					</div>
 				</div>
 				{% else %}
