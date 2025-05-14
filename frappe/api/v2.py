@@ -88,6 +88,8 @@ def count(doctype: str) -> int:
 def create_doc(doctype: str):
 	data = frappe.form_dict
 	data.pop("doctype", None)
+	if (name := data.get("name")) and isinstance(name, str):
+		frappe.flags.api_name_set = True
 	return frappe.new_doc(doctype, **data).insert()
 
 
@@ -109,6 +111,7 @@ def update_doc(doctype: str, name: str):
 	data.pop("flags", None)
 	doc.update(data)
 	doc.save()
+	doc.apply_fieldlevel_read_permissions()
 
 	# check for child table doctype
 	if doc.get("parenttype"):

@@ -55,7 +55,8 @@ def get_context(context):
 		body = get_html(
 			doctype=frappe.form_dict.doctype, name=frappe.form_dict.name, print_format=print_format.name
 		)
-		body += trigger_print_script
+		if cint(frappe.form_dict.trigger_print):
+			body += trigger_print_script
 	else:
 		body = get_rendered_template(
 			doc,
@@ -67,8 +68,15 @@ def get_context(context):
 			settings=settings,
 		)
 
+	# Include selected print format name in access log
+	print_format_name = getattr(print_format, "name", "Standard")
+
 	make_access_log(
-		doctype=frappe.form_dict.doctype, document=frappe.form_dict.name, file_type="PDF", method="Print"
+		doctype=frappe.form_dict.doctype,
+		document=frappe.form_dict.name,
+		file_type="PDF",
+		method="Print",
+		page=f"Print Format: {print_format_name}",
 	)
 
 	return {
@@ -81,7 +89,7 @@ def get_context(context):
 		"doctype": frappe.form_dict.doctype,
 		"name": frappe.form_dict.name,
 		"key": frappe.form_dict.get("key"),
-		"print_format": getattr(print_format, "name", None),
+		"print_format": print_format_name,
 		"letterhead": letterhead,
 		"no_letterhead": frappe.form_dict.no_letterhead,
 		"pdf_generator": frappe.form_dict.get("pdf_generator", "wkhtmltopdf"),
@@ -593,7 +601,7 @@ def get_print_style(
 
 
 def get_font(print_settings, print_format=None, for_legacy=False):
-	default = 'Inter, "saudiriyal", "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif'
+	default = 'Inter, "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif'
 	if for_legacy:
 		return default
 
