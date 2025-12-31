@@ -947,7 +947,7 @@ frappe.views.ListView = class ListView extends frappe.views.BaseList {
 		if (this.settings.button && this.settings.button.show(doc)) {
 			settings_button = `
 				<span class="list-actions">
-					<button class="btn btn-action btn-primary btn-sm"
+					<button class="btn btn-action btn-primary btn-xs"
 						data-name="${doc.name}" data-idx="${doc._idx}"
 						title="${this.settings.button.get_description(doc)}">
 						${this.settings.button.get_label(doc)}
